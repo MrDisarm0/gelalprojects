@@ -10,4 +10,15 @@ public class GelalActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gelal);
     }
+
+	private int getLength(char[] input){
+		int i = 0;
+
+		if(input==null)
+			return -1;
+		
+		for(; input[i]!="/0"; i++)
+
+		return i;
+	}
 }
